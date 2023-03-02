@@ -1,0 +1,107 @@
+@media(max-width: 1366px) {}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 1024px) {
+    // .apexchartsa45p3fdy {
+    //     min-height: 250px !important;
+    // }
+        #area-chart{
+            min-height: 300px !important;
+        }
+    .movie-table {
+        table {
+            tbody {
+                tr {
+                    td {
+                        padding: 12px 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .movie-table {
+
+        table {
+
+            thead {
+
+                th {
+                    padding: 8px;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: 991px) {
+    .custom-header {
+        .navbar-toggler {
+            background-color: #ffff;
+        }
+    }
+
+    header {
+        .custom-header {
+            .custom-navbar-menu {
+                a {
+                    padding: 10px 8px;
+                    display: block;
+                }
+            }
+        }
+
+        .user-dropdown {
+            ul {
+                li {
+                    a {
+                        padding: 10px 8px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 575px) {
+    .user-search-data {
+        flex-direction: column;
+        align-items: flex-start;
+
+        input {
+            margin-top: 30px;
+        }
+    }
+
+    .top-heading {
+        .inner-heading {
+            h3 {
+                font-size: 18px;
+            }
+
+        }
+
+    }
+
+    footer {
+        .custom-footer {
+            flex-direction: column;
+
+        }
+
+
+    }
+
+    header {
+        .custom-header {
+            padding: 8px 0px;
+
+        }
+    }
+}
